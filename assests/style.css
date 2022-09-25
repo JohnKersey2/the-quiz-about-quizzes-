@@ -1,0 +1,52 @@
+/* Color Theme */
+:root {
+    --gunmetal: #2a3439;
+    --sandstone: #d67229;
+    --nocolorpickedyet: #016064; 
+   }
+
+
+/* universal styling */    
+
+body {
+    background-color: var(--gunmetal);
+    color: var(--sandstone);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   h2, p {
+    line-height: 1.2;
+   }
+
+
+/* Style for Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: clamp(28px, 3vw, 3vw);
+}
+
+/* Style for Hero */
+
+#hero {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Style for Questions*/
+
+/* Style for Answer Boxes*/
+
+/* Style for Timer*/
+
+/* Style for Initials and Final Score */
+
+/* Style for Footer */ 
+
+/* */
