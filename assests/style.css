@@ -1,18 +1,24 @@
 /* Color Theme */
 :root {
-    --gunmetal: #2a3439;
-    --sandstone: #d67229;
+    --jeopardyBlue: #060CE9;
+    --darkBlue: #00003D;
+    --white: #f0eff7;
     --nocolorpickedyet: #016064; 
    }
 
 
 /* universal styling */    
 
+html {
+    font-size: 125%;
+}
+
 body {
-    background-color: var(--gunmetal);
-    color: var(--sandstone);
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .8rem;
    }
 
    h2, p {
@@ -29,15 +35,11 @@ header {
     text-align: center;
     padding: 1.5rem;
     font-size: clamp(28px, 3vw, 3vw);
+    border-bottom: .4rem dotted var(--white);
+    margin-bottom: 1rem;
+   
 }
 
-/* Style for Hero */
-
-#hero {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-}
 
 /* Style for Questions*/
 
