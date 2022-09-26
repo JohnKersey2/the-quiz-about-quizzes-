@@ -37,18 +37,27 @@ header {
     font-size: clamp(28px, 3vw, 3vw);
     border-bottom: .4rem dotted var(--white);
     margin-bottom: 1rem;
-   
 }
 
+/* Style for Timer*/
+
+.timerBox {
+    display: flex;
+    justify-content: center;
+}
+
+#startButton {
+    font-size: clamp(24px, 2.5vw, 2.5vw);
+}
 
 /* Style for Questions*/
 
 /* Style for Answer Boxes*/
 
-/* Style for Timer*/
+
 
 /* Style for Initials and Final Score */
 
-/* Style for Footer */ 
+/* Style for Footer / Leaderboard */ 
 
 /* */
