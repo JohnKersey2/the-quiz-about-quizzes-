@@ -20,4 +20,4 @@ function quizTimer() {
     timer.textContent = "You scored " + score + " out of 10!";
   }
   
-  quizTimer();
+  document.getElementById("startButton").addEventListener ("click", quizTimer);
