@@ -1,4 +1,4 @@
-var timer = document.querySelector(".timer"); // puts the display timer in the correct place. may not need to global
+var timer = document.getElementById("timer"); // puts the display timer in the correct place. may not need to global
 
 var score = document.getElementById("score"); // may be useless? idk I'm too dumb to figure out this part right now
 
@@ -11,8 +11,10 @@ var secondsLeft = 120; // all running functions wait for button click and decrem
 
 
 function quizTimer() {
-    document.getElementById("startButton").style.display = "none"; // hides start button
-    //display question / answer flexboxes - hardcore in first question/answers 
+    document.getElementById("startButton").style.display = "none"; // hides start button, displays questions and answers
+    document.getElementById("questionBox").style.display = "flex";
+    document.getElementById("answerBox").style.display = "flex";
+    
     var timerInterval = setInterval(function() {
       secondsLeft--;
       timer.textContent = "You have " + secondsLeft + " seconds left!";
@@ -25,7 +27,7 @@ function quizTimer() {
       
       // write currentQuestion to <p>'s 
       // listen for click
-      // on click, function that changes the scoreTracker and currentQuestion, decrement if wrong
+      // on click, function that changes the scoreTracker and currentQuestion, decrement time if wrong
 
 
     }, 1000);

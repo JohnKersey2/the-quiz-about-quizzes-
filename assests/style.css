@@ -48,7 +48,7 @@ header {
 
 /* Style for Timer*/
 
-.timerBox {
+#timerBox {
     display: flex;
     justify-content: center;
 }
@@ -58,14 +58,14 @@ header {
 }
 
 
-.timer {
+#timer {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
 
 /* Style for Questions and Answer Boxes*/
 
 #questionBox {
-    display: flex;
+    display: none;
     justify-content: center;
     padding-top: 1rem;
 }
@@ -76,8 +76,8 @@ header {
 }
 
 
-.answerBox {
-    display: flex;
+#answerBox {
+    display: none;
     flex-direction: column;
     width: 67%;
     margin: 1rem auto;
@@ -88,7 +88,7 @@ header {
     
 }
 
-.answerBox button {
+#answerBox button {
     font-size: clamp(18px, 2vw, 2vw);
 }
 
