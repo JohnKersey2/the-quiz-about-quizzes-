@@ -31,7 +31,11 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 ## Future Development Notes
+Leaderboard saves time taken as well?
+Track highest score on leaderboard, not just last 
+Try again button (my just have reload())
 Add buttons for different quizzes, including endless mode. 
+Add display section for if user input correct or incorrect answer
 
 
 Questions: 

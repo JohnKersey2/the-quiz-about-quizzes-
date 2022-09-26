@@ -2,18 +2,31 @@ var timer = document.getElementById("timer"); // puts the display timer in the c
 
 var score = document.getElementById("score"); // may be useless? idk I'm too dumb to figure out this part right now
 
+var secondsLeft = 120; // all running functions wait for button click and decrement every 1000ms
+
 var scoreTracker = 0 // increment when answer = true
 
 var currentQuestion = 0 // increment when answer is clicked, tie array of questions and answers to this varriable. 
 
-var secondsLeft = 120; // all running functions wait for button click and decrement every 1000ms
+const questions = ["Debuting in 1938 in the UK, what was the first televised Quiz Show?", "Who was the first host of the gameshow Jeopardy?", "2"]
 
+const answerA = ["Truth or Consequences", "Alex Trebek", "2"]
+
+const answerB = ["CBS Televeision Quiz Show", "Art Flemming", "2"]
+
+const answerC = ["Information Please", "Johnny Gilbert", "2"]
+
+const answerD = ["Spelling Bee", "Don Pardo", "2"]
 
 
 function quizTimer() {
     document.getElementById("startButton").style.display = "none"; // hides start button, displays questions and answers
     document.getElementById("questionBox").style.display = "flex";
     document.getElementById("answerBox").style.display = "flex";
+
+    function runQuiz {
+      
+    }
     
     var timerInterval = setInterval(function() {
       secondsLeft--;
