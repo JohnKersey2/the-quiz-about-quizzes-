@@ -25,6 +25,13 @@ body {
     line-height: 1.2;
    }
 
+button {
+    background-color: var(--jeopardyBlue);
+    color: var(--white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: solid var(--white);
+}
 
 /* Style for Header */
 
@@ -50,25 +57,44 @@ header {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
 
-#startButtonColor {
-    background-color: var(--jeopardyBlue);
-    color: var(--white);
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 
 .timer {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
 
-/* Style for Questions*/
+/* Style for Questions and Answer Boxes*/
 
-/* Style for Answer Boxes*/
+#questionBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+#questionBox h2 {
+    font-size: clamp(24px, 2.5vw, 2.5vw);
+    text-align: center;
+}
+
+
+.answerBox {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    margin: 1rem auto;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    row-gap: 1rem;
+    
+}
+
+.answerBox button {
+    font-size: clamp(18px, 2vw, 2vw);
+}
+
 
 
 
 /* Style for Initials and Final Score */
 
 /* Style for Footer / Leaderboard */ 
-
-/* */
