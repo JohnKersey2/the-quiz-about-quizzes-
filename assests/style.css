@@ -1,7 +1,7 @@
 /* Color Theme */
 :root {
     --jeopardyBlue: #060CE9;
-    --darkBlue: #00003D;
+    --darkBlue: #030115;
     --white: #f0eff7;
     --nocolorpickedyet: #016064; 
    }
@@ -35,7 +35,7 @@ header {
     text-align: center;
     padding: 1.5rem;
     font-size: clamp(28px, 3vw, 3vw);
-    border-bottom: .4rem dotted var(--white);
+    border-bottom: .4rem dotted;
     margin-bottom: 1rem;
 }
 
@@ -47,6 +47,17 @@ header {
 }
 
 #startButton {
+    font-size: clamp(24px, 2.5vw, 2.5vw);
+}
+
+#startButtonColor {
+    background-color: var(--jeopardyBlue);
+    color: var(--white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.timer {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
 

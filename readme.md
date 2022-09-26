@@ -1,8 +1,16 @@
+Start Button -> Timer
+Question pops up
+4 answer buttons
+Answering question logs score, takes you to next question, deducts time if false
+Stop questions when question 10 is answers or time === 0
+Display score and a button allowing you to save your initials to leaderboard/footer
+write function for footer to prompt and change leaderboard 
+
 
 
 ## Acceptance Criteria
 
-Start button for quiz
+Start button for quiz 
 Universal, not question specific timer Starts and presented with question
 When answering a question, another quesiton pops up. 
 When answer incorrectly, time is subtracted from clock
