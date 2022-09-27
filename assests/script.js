@@ -34,7 +34,7 @@ function quizTimer() {
     document.getElementById("questionBox").style.display = "flex";
     document.getElementById("answerBox").style.display = "flex";
 
-    function runQuiz {
+    function runQuiz (){
       let index = currentQuestion;
       question.textContent = questionsPool.at(index)
       answerA.textCont = answerPoolA.at(index)
@@ -42,7 +42,7 @@ function quizTimer() {
       answerC.textCont = answerPoolC.at(index)
       answerD.textCont = answerPoolD.at(index)
 
-      
+      // write fuction functions for each individual question? no that can't be right. 
     }
     
     var timerInterval = setInterval(function() {
