@@ -8,15 +8,25 @@ var scoreTracker = 0 // increment when answer = true
 
 var currentQuestion = 0 // increment when answer is clicked, tie array of questions and answers to this varriable. 
 
-const questions = ["Debuting in 1938 in the UK, what was the first televised Quiz Show?", "Who was the first host of the gameshow Jeopardy?", "2"]
+var question = document.getElementById("question")
 
-const answerA = ["Truth or Consequences", "Alex Trebek", "2"]
+var answerA = document.getElementById("answerA")
 
-const answerB = ["CBS Televeision Quiz Show", "Art Flemming", "2"]
+var answerB = document.getElementById("answerB")
 
-const answerC = ["Information Please", "Johnny Gilbert", "2"]
+var answerC = document.getElementById("answerC")
 
-const answerD = ["Spelling Bee", "Don Pardo", "2"]
+var answerD = document.getElementById("answerD")
+
+const questionsPool = ["Debuting in 1938 in the UK, what was the first televised Quiz Show?", "Who was the first host of the gameshow Jeopardy?", "2"]
+
+const answerPoolA = ["Truth or Consequences", "Alex Trebek", "2"]
+
+const answerPoolB = ["CBS Televeision Quiz Show", "Art Flemming", "2"]
+
+const answerPoolC = ["Information Please", "Johnny Gilbert", "2"]
+
+const answerPoolD = ["Spelling Bee", "Don Pardo", "2"]
 
 
 function quizTimer() {
@@ -25,6 +35,13 @@ function quizTimer() {
     document.getElementById("answerBox").style.display = "flex";
 
     function runQuiz {
+      let index = currentQuestion;
+      question.textContent = questionsPool.at(index)
+      answerA.textCont = answerPoolA.at(index)
+      answerB.textCont = answerPoolB.at(index)
+      answerC.textCont = answerPoolC.at(index)
+      answerD.textCont = answerPoolD.at(index)
+
       
     }
     
