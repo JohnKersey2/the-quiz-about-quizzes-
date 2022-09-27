@@ -1,3 +1,41 @@
+# Create a Quiz
+
+For this assignment, I was to create a quiz with a few sporadic features added in. 
+
+## Link to Deployed Application 
+
+<https://johnkersey2.github.io/the-quiz-about-quizzes-/>
+
+## Application Screenshot 
+
+![Screenshot of the Application](./assests/applicationscreenshot.png)
+
+## Criteria
+
+According to the user story, I was to create a quiz with the following acceptance criteria. 
+
+The quiz starts when user clicks a start button
+
+A timer starts and the user is presented with a question
+
+When one question is answered, another appears
+
+When a question is answered incorrectly, the timer is decremented 15 seconds
+
+The quiz had to stop asking questions when the clock reached 0 or the user completed all questions
+
+After the quiz was over, the user could save their initials and score. 
+
+## Known Issues 
+The program doesn't work. 
+Function to answer questions is not written
+Function to decrement time from clock is not written
+Function to bring new questions up is not written
+Function to track score is not written
+Function to save initials not written
+Only 2 out of 10 questions written. 
+
+##  Current Development Notes
 Start Button -> Timer
 Question pops up
 4 answer buttons
@@ -6,30 +44,6 @@ Stop questions when question 10 is answers or time === 0
 Display score and a button allowing you to save your initials to leaderboard/footer
 write function for footer to prompt and change leaderboard 
 
-
-
-## Acceptance Criteria
-
-Start button for quiz 
-Universal, not question specific timer Starts and presented with question
-When answering a question, another quesiton pops up. 
-When answer incorrectly, time is subtracted from clock
-Gameover after questions are answered or timer reaches 0 
-After game, display score and save initials/score
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
 ## Future Development Notes
 Leaderboard saves time taken as well?
 Track highest score on leaderboard, not just last 
@@ -38,7 +52,3 @@ Add buttons for different quizzes, including endless mode.
 Add display section for if user input correct or incorrect answer
 
 
-Questions: 
-What was the first televised quiz show? SPELLING BEE, Truth or Consequences, Information Please, CBS Television Quiz Show
-
-Who was the first host of the gameshow Jeopardy? ART FLEMMING, Alex Trebek, Johnny Gilbert, Don Pardo
