@@ -27,28 +27,44 @@ The quiz had to stop asking questions when the clock reached 0 or the user compl
 After the quiz was over, the user could save their initials and score. 
 
 ## Known Issues 
-The program doesn't work. 
-Function to answer questions is not written
-Function to decrement time from clock is not written
-Function to bring new questions up is not written
-Function to track score is not written
 Function to save initials not written
-Only 2 out of 10 questions written. 
+
+Footer to show saved score not implemented
+
+## Fixed Issues 
+Main program functionality fixed
+
+Ability to answer questions fixed
+
+Rewriting of questions and answers fixed
+
+Tracking of score fixed
+
+Decrement of time on incorrect answer fixed
+
+Added Q and A copy to arrays
+
 
 ##  Current Development Notes
-Start Button -> Timer
-Question pops up
-4 answer buttons
-Answering question logs score, takes you to next question, deducts time if false
-Stop questions when question 10 is answers or time === 0
-Display score and a button allowing you to save your initials to leaderboard/footer
-write function for footer to prompt and change leaderboard 
+Add a footer that will appear only when initials are saved, and will pull from local storage 
+
+Change arrays to arrays of objects to make changing of questions easier for future developers.
+
+Double check if globally declared variables can be declared locally
+
+Test time needed to make quiz feel competitive and fun
 
 ## Future Development Notes
-Leaderboard saves time taken as well?
-Track highest score on leaderboard, not just last 
-Try again button (my just have reload())
-Add buttons for different quizzes, including endless mode. 
-Add display section for if user input correct or incorrect answer
+Potential features to add:
 
+Display when questions are answered correctly or incorrectly
 
+Change functionality of scoreboard to only show highest score, or if possible, 3 highest scores
+
+Add time taken to complete to scoreboard
+
+Try again button (reload page)
+
+Add buttons for different quizzes.
+
+Add endless mode. 
