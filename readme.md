@@ -61,6 +61,8 @@ Display when questions are answered correctly or incorrectly
 
 Change functionality of scoreboard to only show highest score, or if possible, 3 highest scores
 
+Add final question that asks how many times you clicked the A answer?
+
 Add time taken to complete to scoreboard
 
 Try again button (reload page)
