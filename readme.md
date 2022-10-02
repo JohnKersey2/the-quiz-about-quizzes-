@@ -27,17 +27,17 @@ The quiz had to stop asking questions when the clock reached 0 or the user compl
 After the quiz was over, the user could save their initials and score. 
 
 ## Known Issues 
-Font Sizes for large viewports need to be adjusted for gradeBox and leaderboard
+Input for initials will only be entered if user hits save button, not if they hit the enter key. Only solution found is deprecated. 
 
 ## Fixed Issues 
 Function to save initials written
 
 Footer to show saved score implemented
 
+Font Sizes for large viewports adjusted for gradebox and leaderboard 
+
 ##  Current Development Notes
 Change initial input to only take alphabet characters
-
-Refactor and consolidate code 
 
 ## Future Development Notes
 Potential features to add:

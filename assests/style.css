@@ -6,7 +6,6 @@
     --nocolorpickedyet: #016064; 
    }
 
-
 /* universal styling */    
 
 html {
@@ -19,11 +18,11 @@ body {
     font-size: 1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: .8rem;
-   }
+}
 
-   h2, h3, p {
+h2, h3, p {
     line-height: 1.2;
-   }
+}
 
 button {
     background-color: var(--jeopardyBlue);
@@ -57,7 +56,6 @@ header {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
 
-
 #timer {
     font-size: clamp(24px, 2.5vw, 2.5vw);
 }
@@ -74,7 +72,6 @@ header {
     font-size: clamp(24px, 2.5vw, 2.5vw);
     text-align: center;
 }
-
 
 #answerBox {
     display: none;
@@ -97,7 +94,11 @@ header {
     justify-content: center;
 }
 
-/* Style for Initials and Final Score */
+#gradeBox p {
+    font-size: clamp(18px, 2vw, 2vw);
+}
+
+/* Style for Entering Initials*/
 
 #promptInitials {
     display: none;
@@ -109,6 +110,7 @@ header {
     display: none;
     justify-content: center;
     padding-top: 2rem;
+    font-size: clamp(18px, 2vw, 2vw);
 }
 
 #tryAgain {
@@ -117,7 +119,6 @@ header {
     padding-top: 2rem;
 }
 
-
 /* Style for Footer / Leaderboard */ 
 
 footer {
@@ -125,6 +126,5 @@ footer {
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
+    font-size: clamp(18px, 2vw, 2vw);
 }
-
-
