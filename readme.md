@@ -27,45 +27,26 @@ The quiz had to stop asking questions when the clock reached 0 or the user compl
 After the quiz was over, the user could save their initials and score. 
 
 ## Known Issues 
-Function to save initials not written
-
-Footer to show saved score not implemented
+Font Sizes for large viewports need to be adjusted for gradeBox and leaderboard
 
 ## Fixed Issues 
-Main program functionality fixed
+Function to save initials written
 
-Ability to answer questions fixed
-
-Rewriting of questions and answers fixed
-
-Tracking of score fixed
-
-Decrement of time on incorrect answer fixed
-
-Added Q and A copy to arrays
-
+Footer to show saved score implemented
 
 ##  Current Development Notes
-Add a footer that will appear only when initials are saved, and will pull from local storage 
+Change initial input to only take alphabet characters
 
-Change arrays to arrays of objects to make changing of questions easier for future developers.
-
-Double check if globally declared variables can be declared locally
-
-Test time needed to make quiz feel competitive and fun
+Refactor and consolidate code 
 
 ## Future Development Notes
 Potential features to add:
-
-Display when questions are answered correctly or incorrectly
 
 Change functionality of scoreboard to only show highest score, or if possible, 3 highest scores
 
 Add final question that asks how many times you clicked the A answer?
 
 Add time taken to complete to scoreboard
-
-Try again button (reload page)
 
 Add buttons for different quizzes.
 

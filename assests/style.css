@@ -21,7 +21,7 @@ body {
     margin: .8rem;
    }
 
-   h2, p {
+   h2, h3, p {
     line-height: 1.2;
    }
 
@@ -92,9 +92,39 @@ header {
     font-size: clamp(18px, 2vw, 2vw);
 }
 
-
-
+#gradeBox {
+    display: flex;
+    justify-content: center;
+}
 
 /* Style for Initials and Final Score */
 
+#promptInitials {
+    display: none;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#saveInput {
+    display: none;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#tryAgain {
+    display: none;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+
 /* Style for Footer / Leaderboard */ 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+

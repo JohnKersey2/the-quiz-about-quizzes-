@@ -15,15 +15,13 @@
     </header>
 
     <main>
-        <section id="timerBox"> <!-- Timer / Scoreboard -->
+        <section id="timerBox"> <!-- Timer / Score Display -->
             <button id="startButton">
                 <h2 id="startButtonColor"> Start Quiz</h2>
             </button>
 
-            <div id="timer"></div> <!-- hardcode text so it doesn't lag 1 second?-->
+            <div id="timer"></div> 
             <div id="score"></div>
-            <div id="tryAgain"></div>
-            <div id="saveScore"></div>
         </section>
 
         <section id="questionBox"> <!-- Question Pop Ups -->
@@ -37,14 +35,37 @@
             <button><p id="answerD">Brown</p></button>
         </section>
 
-        <footer> <!-- Leaderboard -->
+        <section id="gradeBox">
+            <p id="grade"></p>
+        </section>
 
-        </footer>
+        <section id="promptInitials">
+            <button>
+                <p id="promptButton">Click here to save your initials and score!</p>
+            </button>
+        </section>
 
+        <section id="saveInput"> <!-- Scoreboard -->
+            <form>
+                <p>Please enter your initials</p>
+                    <div>
+                        <input type="text" id="initials" /> 
+                    </div> <!-- Extra div here to change where below button appears -->
+                <button type="button" id="saveButton">SAVE</button>
+              </form> 
+        </section>
+
+        <section id="tryAgain">
+            <button>
+                <p id="tryAgainButton"> Would you like to try again? </p>
+            </button>
+        </section>
     </main>
 
     <footer> <!-- Leaderboard -->
-
+        <h3 id="scoreboardHeader"></h3>
+      
+        <p id="scoreboard"> </p>
     </footer>
     
     <script src="./assests/script.js"></script>
